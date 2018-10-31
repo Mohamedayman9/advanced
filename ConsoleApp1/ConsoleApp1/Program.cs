@@ -1,12 +1,23 @@
 ﻿using System;
-
-namespace ConsoleApp1
+namespace tickets.models
 {
-    class Program
+    public class customer
     {
-        static void Main(string[] args)
+        public int ID
         {
-            Console.WriteLine("Hello World!");
+            get;
+            set;
+        }
+        public string firstname;
+        public string lastname;
+
+        public string email;
+        public string ismale;
+
+
+
+        public customer()
+        {
         }
     }
 }
